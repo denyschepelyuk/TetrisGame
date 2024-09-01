@@ -13,12 +13,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TetrisGame
-build_property.ProjectDir = /Users/denischepeliuk/Documents/University/C#/AvaloniaTest/TetrisGame/
+build_property.ProjectDir = /Users/denischepeliuk/Documents/Git/csharp/TetrisGame/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/Users/denischepeliuk/Documents/University/C\#/AvaloniaTest/TetrisGame/App.axaml]
+[/Users/denischepeliuk/Documents/Git/csharp/TetrisGame/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/denischepeliuk/Documents/University/C\#/AvaloniaTest/TetrisGame/MainWindow.axaml]
+[/Users/denischepeliuk/Documents/Git/csharp/TetrisGame/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
