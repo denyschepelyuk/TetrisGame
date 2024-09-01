@@ -564,7 +564,8 @@ namespace TetrisGame
 
         private void DrawGame(DrawingContext context)
         {
-            var renderer = new GameRenderer(gameState, currentBitmap, CellSize, CanvasWidth, gameState.Score);
+            int Level = gameState.LinesCleared / 10;
+            var renderer = new GameRenderer(gameState, currentBitmap, CellSize, CanvasWidth, gameState.Score, Level);
             if (!gameState.GameStarted) {
                 renderer.DrawStartMenu(context);
             }
@@ -615,14 +616,16 @@ namespace TetrisGame
         private int cellSize;
         private int canvasWidth;
         private int score;
+        private int level;
 
-        public GameRenderer(GameState gameState, Bitmap currentBitmap, int cellSize, int canvasWidth, int score)
+        public GameRenderer(GameState gameState, Bitmap currentBitmap, int cellSize, int canvasWidth, int score, int level)
         {
             this.gameState = gameState;
             this.currentBitmap = currentBitmap;
             this.cellSize = cellSize;
             this.canvasWidth = canvasWidth;
             this.score = score;
+            this.level = level;
         }
 
         internal void DrawGame(DrawingContext context)
@@ -660,6 +663,12 @@ namespace TetrisGame
             double textWidth = scoreText.Width;
             double xPosition = canvasWidth - textWidth - 10; // 10 pixels padding from the right edge
             context.DrawText(scoreText, new Point(xPosition, 10)); // 10 pixels padding from the top edge
+
+            // Draw level
+            var levelText = new FormattedText("Level: " + level, CultureInfo.CurrentCulture, FlowDirection.LeftToRight, Typeface.Default, 24, Brushes.White);
+            double levelTextWidth = levelText.Width;
+            double levelXPosition = canvasWidth - levelTextWidth - 10; // 10 pixels padding from the right edge
+            context.DrawText(levelText, new Point(levelXPosition, 40)); // 40 pixels padding from the top edge
         }
 
         internal void DrawStartMenu(DrawingContext context)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R1tTH9mNB2Q=",
+  "dgSpecHash": "6Fd6x72/Dx4=",
   "success": true,
-  "projectFilePath": "/Users/denischepeliuk/Documents/University/C#/AvaloniaTest/TetrisGame/TetrisGame.csproj",
+  "projectFilePath": "/Users/denischepeliuk/Documents/Git/csharp/TetrisGame/TetrisGame.csproj",
   "expectedPackageFiles": [
     "/Users/denischepeliuk/.nuget/packages/avalonia/11.0.11/avalonia.11.0.11.nupkg.sha512",
     "/Users/denischepeliuk/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2023020321/avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

@@ -4585,11 +4585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/denischepeliuk/Documents/University/C#/AvaloniaTest/TetrisGame/TetrisGame.csproj",
+      "projectUniqueName": "/Users/denischepeliuk/Documents/Git/csharp/TetrisGame/TetrisGame.csproj",
       "projectName": "TetrisGame",
-      "projectPath": "/Users/denischepeliuk/Documents/University/C#/AvaloniaTest/TetrisGame/TetrisGame.csproj",
+      "projectPath": "/Users/denischepeliuk/Documents/Git/csharp/TetrisGame/TetrisGame.csproj",
       "packagesPath": "/Users/denischepeliuk/.nuget/packages/",
-      "outputPath": "/Users/denischepeliuk/Documents/University/C#/AvaloniaTest/TetrisGame/obj/",
+      "outputPath": "/Users/denischepeliuk/Documents/Git/csharp/TetrisGame/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/denischepeliuk/.nuget/NuGet/NuGet.Config"
